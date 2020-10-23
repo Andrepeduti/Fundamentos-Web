@@ -1,0 +1,63 @@
+/*Estilos pagina index.html*/
+.center{
+        text-align: center;
+}
+.container {
+        display: flex;
+        flex-flow: row; 
+        justify-content: center; 
+        align-items: center; 
+}
+
+#menu li{
+        display: inline;
+        padding: 20px;
+        text-decoration: none;
+}
+#menu li a{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+}
+#menu li a:hover{
+        color: blue;
+}
+.button:hover{
+        color: gold;
+}
+.p-30{
+        padding: 30px;
+}
+.br-50{
+        border-radius: 50%;
+}
+.wr-redes{
+        width: 30px; right: 30px;
+        margin: 5px;
+}
+
+/*Estilos da pagina contato.hyml*/
+
+.margem-l{
+        margin-left: 50px;
+}
+
+/*Estilo demais*/
+@font-face {
+        font-family: 'FonteLogo';
+        src: url("kaushanscript-regular-webfont.woff");
+        }
+.bg-corpo{
+        background-color: #ccae62;
+}
+
+.bg-rodape{
+        background-color: gray;
+}
+.font-h1{
+        font-family: 'Staatliches', cursive;
+}
+
+.font-h2{
+        font-family: FonteLogo;
+}
