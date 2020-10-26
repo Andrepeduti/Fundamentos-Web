@@ -20,10 +20,10 @@
         font-size: 20px;
 }
 #menu li a:hover{
-        color: blue;
+        color: white;
 }
 .button:hover{
-        color: gold;
+        color: rgb(2, 2, 2);
 }
 .p-30{
         padding: 30px;
@@ -41,6 +41,12 @@
 .margem-l{
         margin-left: 50px;
 }
+.font-msg{
+        font-family: 'Syne Mono', monospace;
+        font-family: 'Turret Road', cursive;
+        color: white; 
+               font-size: 10px;
+}
 
 /*Estilo demais*/
 @font-face {
@@ -48,16 +54,30 @@
         src: url("kaushanscript-regular-webfont.woff");
         }
 .bg-corpo{
-        background-color: #ccae62;
+        background-color: #2f3640;
 }
 
 .bg-rodape{
         background-color: gray;
 }
 .font-h1{
-        font-family: 'Staatliches', cursive;
+        font-family: 'Syne Mono', monospace;
+        color: honeydew;
+        font-size: 30px;
 }
 
 .font-h2{
-        font-family: FonteLogo;
+        font-family: 'Syne Mono', monospace;
+font-family: 'Turret Road', cursive;
+color: honeydew; 
+       font-size: 100px;
+}
+
+.font-h3{
+        color: honeydew; 
+       font-size: 30px;
+}
+.font-h4{
+        font-size: 15px;
+        color: white;
 }
